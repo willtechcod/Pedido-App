@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Pedido Certo",
-    "slug": "Pedido Certo",
+    "name": "Pedido-Certo",
+    "slug": "Pedido-Certo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.willcode2019.PedidoCerto"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4f600c44-ec92-472f-8c23-c0962789eea6"
+      }
     }
   }
 }
